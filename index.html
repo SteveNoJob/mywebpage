@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kai Kit's personal webpage</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to my personal webpage</h1>
+            <p>A Univeristy Student at Asia Pasific Univeristy</p>
+            <a href="#contact" class="contact_btn">Contact me</a>
+        </div>
+    </header>
+
+    <section id="aboutme">
+        <div class="aboutme_text">
+            <h1>whoami</h1>
+            <h2>Hi! I am Ng Kai Kit</h2>
+            <p>I am highly interested in learning new things and is now on coursera 
+                & HTB Academy doing online trainning
+            </p>
+        </div>
+        <div class="aboutme_icon">
+            <img src="assets/mk_by_kk.png" alt="logo" class="pfp_pic">
+        </div>
+    </section>
+
+    <section id="interest">
+        <h1>Interests</h1>
+        <div class="box">
+            <p>Data Science <i class='bx bxl-graphql'></i></p>
+        </div>
+        <div class="box">
+            <p>Cyber Security <i class='bx bxs-lock-alt' ></i></p>
+        </div>
+        <div class="box">
+            <p>Movies <i class='bx bxs-movie'></i></p>
+        </div>
+    </section>
+
+    <section id="edu">
+        <h1>Education</h1>
+        <div class="box" id="edu_box">
+            <img src="assets/apu.png" alt="APU logo" id="apu_logo">
+            Diploma in ICT with a specilism in Data Informatics
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact me</h1>
+        <form action="http://apu.edu.my" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="Your name" required>
+
+            <label>Email: <input type="email" name="email" id="email" placeholder="Your email" required></label>
+
+            <label>Message: <textarea rows="4" name="message" id="message" placeholder="Your message" required></textarea></label>
+            
+            <input type="submit" value="Send">
+        </form>
+    
+    </section>
+
+    <footer id="footer">
+        <p>&copy; 2024 Ng Kai Kit</p>
+        <p>Follow me on <a href="https://www.instagram.com/kaikit0720/" target="_blank">Instagram <i class='bx bxl-instagram'></i></a> | 
+            <a href="https://app.hackthebox.com/users/1798126" target="_blank">HackTheBox <i class='bx bx-cube' ></i></a></p>
+    </footer>
+</body>
+</html>
